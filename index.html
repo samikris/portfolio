@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Online Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        font-family: "Georgia", serif;
+      }
+
+      .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+  </style>    
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+      <img>
+        
+        <h1> <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+  
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+       Welcome to Samiksha's Portfolio!</h1>
+      </header>
+    
+    <main>
+      <article>
+        <center><h2>About Me</h2></center>
+        <p>My goal this year is to learn more about what engineering truly is and the applications of this field, especially in areas I am interested in such as aerospace and mechanical engineering. I have developed a burning curiosity for how vehicles in space and on land are designed and what it takes to make a safe, efficient physical system. As computer science becomes increasingly important, I also hope to develop a set of skills that allows me to combine coding and physical aspects of engineering together.  I aspire to innovate and solve problems with my engineering knowledge, as well as communicate it to the world around me. 
+
+Problem solving skills, verbal communication, and analytical thinking are crucial aspects of success. I have accumulated skills like knowledge about modern technology and coding and being observant of my surroundings. With this, I have been able to process challenging concepts with ease and apply them to aspects of my environment. In high school, I have the ability to learn and communicate concepts despite their challenges because I am willing to overcome difficulty and make mistakes. I am a youth volunteer for Lindsay Wildlife Experience and the AAUW (American Association of University Women), and I share my scientific knowledge with the public and learn about various environmental issues. To challenge myself, I joined Gael Force Robotics and I have been a member of the competition team 5327S since 2020, where I attend competitions and assist my team captain in designing a robotic system that performs various functions in a game. I am taking Principles of Engineering to learn about the variety of areas in engineering and how to view the world through the lens of an engineer. 
+
+My exposure to these activities has taught me how to communicate my observations to others and design a system that can be utilized for multiple purposes. My experiences have taught me that it takes an open mind and perseverance to study engineering or any part of science, and the process of innovating is an extensive cycle that requires one to constantly ask questions. On that note, I hope to pursue my career in engineering and achieve my goals in DEDA. 
+
+Take a look at my work experience and projects to learn about me and what I have been doing to be a successful engineer!</p>
+        <img src= "images/profile.jpg" alt="profile photo" style = "width:110px;" ALIGN = "left" HSPACE = 15px; />
+        <p>Contact information</p>
+        <p>Email: saminivi@gmail.com</p>
+        <p>Dublin, CA</p>
+      </article>
+    </main>
+    
+    <div id="mySidenav" class ="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="Projects.html">Projects</a>
+      <a href="Workexperience.html">Career Exploration</a>
+    </div
+      
+     <footer></footer>
+  </body>
+</html>
